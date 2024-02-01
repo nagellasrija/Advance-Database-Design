@@ -1,3 +1,4 @@
+//Query 1
 // Create a collection named 'classwork'
 db.createCollection('classwork')
 
@@ -23,6 +24,7 @@ db.classwork.insertOne({
   insertedId: 123
 }*/
 
+//Query 2
 // Create the collection named 'School'
 db.createCollection('School')
 // Insert a document into the 'School' collection
@@ -44,6 +46,8 @@ db.School.insertOne([
     }
 }*/
 
+
+//Query 3
 // Create a collection named 'Home'
 db.createCollection('Home')
 // Insert multiple documents into the 'Home' collection
