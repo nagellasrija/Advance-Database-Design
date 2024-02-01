@@ -1,4 +1,8 @@
+//Query 1
+// Create a collection named 'classwork'
 db.createCollection('classwork')
+
+// Insert a document into the 'classwork' collection
 db.classwork.insertOne({
     "_id": 123,
     "Emp_ID": "10025AE336",
@@ -20,7 +24,10 @@ db.classwork.insertOne({
   insertedId: 123
 }*/
 
+//Query 2
+// Create the collection named 'School'
 db.createCollection('School')
+// Insert a document into the 'School' collection
 db.School.insertOne([  
   {
     title: "Post Title 2",
@@ -39,7 +46,11 @@ db.School.insertOne([
     }
 }*/
 
+
+//Query 3
+// Create a collection named 'Home'
 db.createCollection('Home')
+// Insert multiple documents into the 'Home' collection
 db.Home.insertMany([  
   {
     title: "Post Title 2",
