@@ -4,7 +4,7 @@
  import datetime
    
 # Define the MongoDB connection URI
- uri = "mongodb+srv://nagellasrija:test123@cluster0.6woaqse.mongodb.net/?retryWrites=true&w=majority"
+ uri = "mongodb+srv://nagellasrija:Srija@10@cluster0.6woaqse.mongodb.net/?retryWrites=true&w=majority"
 
  # Create a new client and connect to the server
  client = MongoClient(uri, server_api=ServerApi('1'))
