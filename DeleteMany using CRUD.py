@@ -21,7 +21,7 @@ try:
     listings_collection = db.listings
 
     # Define filter criteria for the documents to delete
-    documents_to_delete = {"bedrooms": {"$lt": 2}}
+    documents_to_delete = {"Property_type": "Condo"}
 
     # Search for sample document before delete
     print("Searching for sample target documents before delete: ")
